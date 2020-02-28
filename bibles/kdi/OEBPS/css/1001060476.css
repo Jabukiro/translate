@@ -1,0 +1,183 @@
+/* CSS Document */
+
+
+/*1001060477 */
+/* bi12 App 10 */
+
+@page { 
+	border: .5ex;
+} 
+ 
+body {  
+	margin: 5%;
+	text-align: left;
+}
+ 
+strong   {
+	font-weight:200;
+}
+
+p.strong {
+	font-weight:700;
+}
+
+span.altsize {
+	font-size:.95em;
+	font-weight:300;
+}
+
+
+h1, h1.contextTtl
+{
+	font-weight:inherit;
+	color:#75000b;
+	font-size: 1.5em;
+	font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	text-align:left;
+	-webkit-font-smoothing: subpixel-antialiased;}
+ 
+
+p.sc {
+	font-family: "Arial", Helvetica, sans-serif !important;
+	font-size: 0.85em;
+	line-height: normal;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0.80em;
+	margin-left: 0em;
+	text-align: left;
+}
+
+p.sc:first-child, .sn {
+	font-family: "Arial", Helvetica, sans-serif !important;
+	font-size: 0.8em;
+	line-height: normal;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0.80em;
+	margin-left: 0em;
+	text-align: left;
+}
+
+.sn {line-height:2em;}
+
+/*p.sc strong {  color: #75000b; 
+	font-weight: 200;
+ 	font-family: "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif; 
+ 	font-size: 1.2em; 
+	line-height:2em;  
+	margin-top: 2em;  }*/
+
+p.se strong {  
+	color: #75000b; 
+	font-weight: 200;
+ 	font-family: "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif; 
+ 	font-size: 1.2em; 
+	line-height:2em;  
+	margin-top: 2em;  
+}
+
+
+
+p.se {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 0.9em;
+	margin-top: .5em;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 1.75em;
+	padding-right: 0;
+	padding-bottom: .5em;
+	padding-left: 0;
+}
+
+
+
+
+.bodyTxt .pGroup {
+	clear:both;
+	margin-top: 32px;
+	margin-right: 0;
+	margin-bottom: 24px;
+	margin-left: 0;
+	padding-top: 8px;
+	padding-right: 6px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	background-color: #F9F8F4;
+	clear: both;
+	border:1px solid silver;
+}
+
+
+
+div.groupFootnote:before {
+	font-size: 16px ;
+ 	color: grey;
+ 	content: "_______________";}
+ 
+div.groupFootnote p{
+ 	font-size: 0.75em;
+ 	margin-top: 1.25em;
+	margin-right: 0em;
+ 	-webkit-font-smoothing: subpixel-antialiased;
+}
+ 
+div.groupExtScrpCite p {
+ 	font-size: 0.75em;
+ 	margin-top: 16px;
+ 	-webkit-font-smoothing: subpixel-antialiased;
+}
+ 
+div.groupExtScrpCite {
+ 	padding-top: .25em;
+}
+ 
+div.groupExt {
+ 	margin-top: 1.75em;
+}
+ 
+/* navigation */ 
+
+a:link, a:visited {
+	font-family:inherit;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-weight: 200;
+	-webkit-text-fill-color: #6195c7;
+	color: #6195c7;
+}
+ 
+a:hover {
+	-webkit-text-fill-color: grey;
+	color: grey; 
+}
+ 
+
+/* MOBI */
+ 
+e:link {
+ 	color: #6195c7; 
+}
+ 
+e:visited {
+ 	color: #6195c7;
+ 	text-decoration: none;
+}
+ 
+e:active {
+	color: #6195c7;
+}
+ 
+e:hover {
+ 	color: #666;
+ 	text-decoration: none;
+}
+ 
+e:focus {
+	color: #3fa2bf;
+ 	background-color: #c5b587;
+}
+
+
+

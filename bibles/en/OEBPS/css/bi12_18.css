@@ -1,0 +1,419 @@
+body { margin-left: 5%; margin-right: 5%; margin-top: 5%; margin-bottom: 5%; text-align: left; }
+h1 { text-align: center; }
+h2 { text-align: center; }
+h3 { text-align: center; }
+h4 { text-align: center; }
+h5 { text-align: center; }
+h6 { text-align: center; }
+p { font-size: small;
+    orphans: 2;
+	windows: 2;
+}
+.s1 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: .95em;
+	line-height: normal;
+	text-align: left;
+	margin: 0.20em 0em 0.50em 0em;
+}
+.sa {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-align: left;
+	margin: 0.20em 0em 0.50em 0em;
+}
+.sb {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-indent: 0.5em;
+	text-align: left;
+	margin: 0.20em 0em .5em 0em;
+	padding-bottom: .5em;
+}
+p.sc {
+	font-family: "Arial", Helvetica, sans-serif !important;
+	font-size: 0.85em;
+	line-height: normal;
+	margin: 0em 0em 0.80em 0em;
+	text-align: left;
+}
+.sd {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+	font-size: 0.85em;
+	line-height: normal;
+	margin: 0em 0em 0.5em 0em;
+	text-align: right;
+}
+
+p.se {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 0.85em;
+	margin: .5em 0 0 0;
+	padding: 0 0 0 0;
+}
+.sf {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 0.85em;
+	line-height: 1.2em;
+	text-align: left;
+	margin: 1em 0em 1em 0em;
+}
+.sg {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 1.1em;
+	line-height: 1.15em;
+	text-align: left;
+	padding: 0px;
+	margin-top: 2em;
+	margin-right: 0;
+	margin-bottom: 0em;
+	margin-left: 0;
+}
+.sh {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+	font-size: 0.95em;
+	line-height: 1em;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-right: 2em;
+	margin-bottom: 0.7em;
+	margin-left: 1em;
+}
+.si {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.2em;
+	margin: 1em 0 1em 0;
+	padding: 0 1.5em 0 1.5em;
+}
+.sj {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+	font-size: 0.85em;
+	line-height: 1.2em;
+	margin-top: 0.5em;
+	margin-right: 0;
+	margin-bottom: 0em;
+	margin-left: 0;
+	padding-top: 0em;
+	padding-right: 1.5em;
+	padding-bottom: 1em;
+	padding-left: 1.5em;
+}
+.sk {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1em;
+	margin: 0.3em 0 0.3em 0;
+	padding-left: 1.5em;
+}
+.sl {
+  margin: 0.3em 0 0.2em 0;
+  padding-left: 2.5em;
+  text-indent: -2.5em;
+}
+.sm {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1em;
+	text-indent: 1em;
+	margin: 0em 0 2.5em 0;
+}
+.sn {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	margin: 1em 0 1em 0;
+	padding-left: 1.5em;
+}
+.so {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1em;
+	font-variant: normal;
+	text-align: center;
+	margin: 1em 0 0.5em 0;
+}
+.sp {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	margin-top: 0.3em;
+	margin-right: 1.15em;
+	margin-bottom: 1.5em;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 1em;
+	padding-bottom: 0;
+	padding-left: 1em;
+}
+p.sq {
+	font-family: "Arial";
+	font-size: 0.79em;
+	line-height: 1.11em;
+	text-align: left;
+	margin: 0em 0em 0.22em 0em;
+    color: #1f9c0a;
+	display: none;
+}
+.sr {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 1.25em;
+	line-height: 1em;
+	font-variant: normal;
+	text-align: center;
+	margin: 1em 0 0.5em 0;
+}
+.ss {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: .95em;
+	line-height: normal;
+	font-variant: normal;
+	text-align: center;
+	margin: 1.5em 0 0 0;
+}
+.st {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: normal;
+	margin-top: .25em;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+}
+.su {
+	font-family: "Times New Roman", Times, serif !important;
+	text-align: center;
+	font-size: .8em;
+	top-margin: 1em;
+	padding-top: 1em;
+}
+.sv {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	text-align: center;
+	line-height: 1.0em;
+}
+p.sv + p.sv {margin: .5em;
+             padding-top: .5em;
+			 padding-bottom: .25em;
+}
+.sw {
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: 0.95em;
+  text-align: center;
+  line-height: 1.0em;
+}
+p.sw + p.sw {margin: .5em;
+             padding-top: .5em;
+			 padding-bottom: .25em;
+}
+.sx {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1em;
+	font-variant: normal;
+	text-align: center;
+	margin: 1em 0 0.5em 0;
+}
+.sy {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1em;
+	font-variant: normal;
+	text-align: center;
+	margin: 1em 0 0.5em 0;
+}
+.sz {
+  margin: 0.2em 0 0.3em 0;
+  padding-left: 2.5em;
+  text-indent: -0.5em;
+}
+p.w_question {
+	font-family: "Arial";
+	font-size: 0.79em;
+	line-height: 1.11em;
+	text-align: left;
+	margin: 0em 0em 0.22em 0em;
+    color: #1f9c0a;
+}
+.s5 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-align: left;
+	margin-top: 1.6em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+}
+.s6 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-align: left;
+	margin-top: 1.6em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+}
+.s7 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-align: left;
+	margin-top: 1.6em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+}
+.s8 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-align: left;
+	margin-top: 1.6em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+}
+.s9 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-align: left;
+	margin-top: 1.6em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+}
+.s0 {
+	font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	line-height: 1.15em;
+	text-align: left;
+	margin-top: 1.6em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+}
+.CI { text-align: center; margin-top: 0px; margin-bottom: 0px; padding: 0px; }
+.center { text-align: center; }
+.smcap { font-variant: small-caps; }
+.u { text-decoration: underline; }
+.bold { font-weight: bold;
+}
+div.w_north_left { width: 50% !important;
+           float: right;
+           margin: 0 0 2em 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_north_center { width: 100% !important;
+           float: right;
+           margin: 0 0 2em 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_north_right { width: 50% !important;
+           float: right;
+           margin: 0 0 2em 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_south_left { width: 50% !important;
+           float: right;
+           margin: 2em 0 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_south_center { width: 100% !important;
+           float: right;
+           margin: 2em 0 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_south_right { width: 50% !important;
+           float: right;
+           margin: 2em 0 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_west_left { width: 50% !important;
+           float: left;
+           margin: .2em 1em 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_west_center { width: 50% !important;
+           float: left;
+           margin: .2em 1em 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_west_right { width: 50% !important;
+           float: left;
+           margin: .2em 1em 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_east_left { width: 50% !important;
+           float: right;
+           margin: .2em 0 0 1em !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_east_center { width: 50% !important;
+           float: right;
+           margin: .2em 0 0 1em !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_east_right { width: 50% !important;
+           float: right;
+           margin: .2em 0 0 1em !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+img { width: 100% !important;
+      vertical-align: text-top;
+}
+div.tag8 .st {
+    font-family: "Times New Roman", Times, serif !important;
+	font-size: 1.25em;
+	line-height: 1em;
+	font-variant: normal;
+	text-align: center;
+	margin: 1em 0 0.5em 0;
+}
+div.tag42 {
+    padding-top: .5em;
+}
+div.tag43 {
+    padding-top: .5em;
+}
+div.tag42 .si {
+    font-family: "Times New Roman", Times, serif !important;
+	font-size: 0.95em;
+	text-align: center;
+	line-height: 1.0em;
+}
+div.tag43 .si {
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 0.95em;
+    text-align: center;
+    line-height: 1.0em;
+}
+p.w_caption {
+	font-family: Arial;
+	font-size: small;
+    color: black;
+    font-weight: bold;
+	line-height: 1em;
+	font-variant: small;
+	text-align: left;
+	margin-top: .5em;
+}a:link {color:#666;}      /* unvisited link */
+a:visited {color:#333;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */

@@ -1,0 +1,36 @@
+/* 		_39.CSS COVER */
+
+@page 			{   
+	border: .5ex; 				}
+
+body 			{	
+	margin: 5%; 
+	-webkit-font-smoothing: subpixel-antialiased;}
+
+h1, .contextTtl { 	
+	display:none; }
+
+/*MM___________________________________________________________________*/
+
+
+div.north_center { 
+		   width: 100% !important;
+           float: left;
+           margin-top: 1em  !important;
+		   margin-right: 0em;
+		   margin-bottom: 1em;
+		   margin-left: 0em;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+
+img, figure { 		
+	width: 100% !important;
+   	vertical-align: middle;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+}
+					
+				

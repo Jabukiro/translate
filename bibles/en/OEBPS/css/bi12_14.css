@@ -1,0 +1,95 @@
+body { margin-left: 5%; margin-right: 5%; margin-top: 5%; margin-bottom: 5%; text-align: justify; }
+h1 { text-align: center; }
+h2 { text-align: center; }
+h3 { text-align: center; }
+h4 { text-align: center; }
+h5 { text-align: center; }
+h6 { text-align: center; }
+p { font-size: small; }
+p.sa {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0.5em 0 0.5em 0;
+	padding-left: 2em;
+}
+p.sb {
+	font-family: "Times New Roman", Times, serif;
+	text-indent: 1em;
+}
+p.sc {
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	}
+p.se {
+	font-family: "Times New Roman", Times, serif;
+	margin-top: .5em;
+	margin-bottom: 0em;
+	}
+p.si {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0.5em 0 0.5em 0;
+	padding-left: 2em;
+}
+p.sl {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0.3em 0 0.2em 0;
+	padding-left: 2.5em;
+	text-indent: -2.5em;
+}
+p.sk {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0.3em 0 0.3em 0;
+	padding-left: 2.0em;
+	text-indent: -1em;
+}
+p.sm {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0.5em 0 0.3em 0;
+}
+p.sn {
+	font-family: "Times New Roman", Times, serif;
+	font-size: .95em;
+	margin-top: .25em;
+	margin-bottom: 0em;
+}
+p.ss {
+	font-family: "Times New Roman", Times, serif;
+	font-size: .95em;
+	text-align: center;
+	margin-top: .5em;
+	padding-top: 1em;
+}
+p.st, .document .ct {
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1.25em;
+	margin: 0.5em 0 1em 0;
+	text-align: center;
+}
+p.sw {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+}
+p.sz {
+  margin: 0.2em 0 0.3em 0;
+  padding-left: 2.5em;
+  text-indent: -0.5em;
+}
+p.w_question {
+	font-family: "Arial";
+	font-size: 0.79em;
+	line-height: 1.11em;
+	text-align: left;
+	margin: 0em 0em 0.22em 0em;
+    color: #1f9c0a;
+}
+img { margin: 5px; }
+.CI { text-align: center; margin-top: 0px; margin-bottom: 0px; padding: 0px; }
+.center { text-align: center; }
+.smcap { 
+	font-family: serif;
+	font-size: normal; }
+.u { text-decoration: underline; }
+.bold { font-weight: bold; }
+.west { float: left; }
+.east { float: right; }

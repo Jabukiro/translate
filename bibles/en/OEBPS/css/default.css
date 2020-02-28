@@ -1,0 +1,380 @@
+
+/* 		DEFAULT.CSS  */
+/*		 	history: done 10-12 revised 12-2-12 */
+/* 						MOST CURRENT as of 1-4-2013 */
+/*  	TABLE OF CONTENTS  */
+/*  1.		@ function commands
+	2.		Headers
+	3. 		p dec
+	4.		p classes	
+	5.		formatting command arguments
+	6.			DIV tag structures
+			a.		body/headings text formatting
+			b.		footnote formatting 
+			c.		blurbs	
+			d.		supplemental boxes & text formatting
+			e.		MM Content image positional divs
+			f.		display only content
+	6.		Images
+	7.		Captions
+	8. 		Link Elements
+------------------------------------------------------------*/
+
+@page 			{  		border: .5ex; 
+						}
+		
+body 		{			margin : 5%; 
+						text-align: left; 
+						-webkit-font-smoothing: subpixel-antialiased;}
+
+/* HEADERS __________________________________________________________*/
+h1 { 					text-align: center;
+						-webkit-hyphens:none;
+		 }
+
+h2, h3, h4, h5, h6 { 			text-align: left;
+						-webkit-hyphens:none;
+						}
+/*___________________________________________________________________*/	
+
+p { 	font-size: small;
+		-webkit-font-smoothing: subpixel-antialiased;
+    	orphans: 2;
+		widows: 2;
+}
+
+p.w_pagenavnum {
+	font-size: large;
+}
+
+
+/* p classes ____________________________*/
+.s1 {
+			font: 0.9em/1.2em "TimesNewRomanPSMT", "Times New Roman", Times;
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-align: left;
+			margin: 0.20em 0em 0.50em 0em;
+}
+
+.sa {
+			font: 0.95em/1.15em "TimesNewRomanPSMT", "Times New Roman", Times, serif !important;
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-align: left;
+			margin: 0.20em 0em 0.50em 0em;
+}
+
+		/*used for body text*/
+.sb {
+			font: 1.2em/1.2em "TimesNewRomanPSMT", "Times New Roman", Times, serif; 
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-indent: 0.50em;
+			text-align: left;
+			margin: 0 0 0.5em 0;
+}
+		
+  		/*used for map and caption text following text labels*/
+p.sc {
+			font: 0.85em/1.2em "Arial", Helvetica, sans-serif;
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-align: left;
+			margin: 0.15em 0 0 0;	
+}
+
+		/*used for map and caption text with display set to none*/
+p.s0 {
+	display: none;
+}
+
+
+.sd {
+			font: 0.85em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+			-webkit-font-smoothing: subpixel-antialiased;
+			margin: 0em 0em 0.5em 0em;
+			text-align: right;
+}
+
+			/*used for text labels, e.g. [Box on page xx]*/
+p.se {
+			font:1em/100% "Arial";
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-align: left;
+			margin: .5em 0em 0em 0em;
+}
+
+p.s9 {
+	display: none;
+}
+
+		/*used for footnotes*/
+.sf {
+			font: 0.85em/1.2em "TimesNewRomanPSMT", "Times New Roman", Times, serif;
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-align: left;
+			margin: 1em 0em;
+}
+
+
+.sg {
+			font: 1.1em/1.15em "TimesNewRomanPSMT", "Times New Roman", Times, serif !important;
+			text-align: left;
+			-webkit-font-smoothing: subpixel-antialiased;
+			padding: 0em;
+			margin: 2em 0 0 0;
+}
+
+.sh {
+			font: 0.95em/1em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+			text-align: left;
+			margin: 0.5em 2em 0.7em 1em;
+}
+
+.si {
+			font: 0.8em/1.2em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+			margin: 1em 0;
+			padding: 0 1.5em;
+}
+.sj {
+			font: 0.85em/1.2em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+			margin: 0.5em 0 0 0;
+			padding: 0em 1.5em 1em 1.5em;
+}
+.sk {
+			font: 0.8em/1em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+			margin: 0.3em 0;
+			padding-left: 1.5em;
+}
+.sl {
+ 	  		margin: 0.3em 0 0.2em 0;
+	 		padding-left: 2.5em;
+	 		text-indent: -2.5em;
+}
+.sm {
+			font: 0.8em/1em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+			text-indent: 1em;
+			margin: 0em 0 2.5em 0;
+}
+.sn {
+			font: 0.8em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+			margin: 1em 0em;
+			padding-left: 1.5em;
+}
+.so {
+			font: 0.75em/1.2em "Arial", Helvetica, sans-serif !important;
+			text-align: left;
+
+			margin: 1em 0em 0em 0em;
+}
+
+.sp {
+			font: 0.95em "TimesNewRomanPSMT", "Times New Roman", Times, serif !important;
+			margin: 0.3em 1.15em 1.5em 0;
+			padding: 0 1em;
+}
+
+p.sq {
+			font: 0.79em/1.11em "Arial";
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-align: left;
+			margin: 0em 0em 0.22em 0em;
+    			color: #1f9c0a;
+}
+
+.sr {
+			font: bold 0.75em/1.5em "Arial", Helvetica, sans-serif !important;
+			text-align: center;
+			-webkit-font-smoothing: subpixel-antialiased;
+			border-bottom: 1px solid #e9ebbd;
+			text-transform: uppercase;
+			letter-spacing: 0.3em;
+			margin: 0 0 2em 0;
+}
+.ss {
+			font: 0.95em/1.5em "Arial", Helvetica, sans-serif !important;
+			text-align: center;
+			margin: 1.5em 0 0 0;
+}
+
+.st {
+			font: 1.25em/1.1em "Arial", Helvetica, sans-serif !important;
+			text-align: center;
+			margin: 0.5em 0 0.75em 0;
+			-webkit-hyphens:none;
+}
+.su {
+			font: 1.2em "TrebuchetMS", "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+			text-align: center;
+			margin: -0.5em 0 0.5em 0;
+}
+.sv {
+			font: 0.95em/1em "TimesNewRomanPSMT", "Times New Roman", Times, serif !important;
+			text-align: center;
+			margin: 1em 0 0.5em 0;
+}
+.sw {
+ 			font: italic 0.8em;
+ 	 		text-align: center;
+}
+.sx {
+			font: normal 0.95em/1em "TimesNewRomanPSMT", "Times New Roman", Times, serif !important;
+			text-align: center;
+			margin: 1em 0 0.5em 0;
+}
+.sy {
+			font: normal 0.95em/1em "TimesNewRomanPSMT", "Times New Roman", Times, serif !important;
+			text-align: center;
+			margin: 1em 0 0.5em 0;
+}
+
+.sz {
+ 	 		margin: 0.2em 0 0.3em 0;
+ 	 		padding-left: 2.5em;
+ 	 		text-indent: -0.5em;
+}
+
+
+p.w_question {
+			font: 0.79em/1.11em "Arial";
+			-webkit-font-smoothing: subpixel-antialiased;
+			margin: 0.15em 0em 0.22em 0em;
+    		color: #1f9c0a; 
+}
+/*___________________________________________________________________*/	
+
+
+/* formatting command arguments ____________________*/
+.CI { text-align: center; margin-top: 0px; margin-bottom: 0px; padding: 0px; }
+.center { text-align: center; }
+.smcap { font-variant: small-caps; }
+.u { text-decoration: underline; }
+.bold { font-weight: bold;}
+
+
+
+
+/*MM_________________________________________________________________*/	
+
+div.w_north_left { width: 50% !important;
+           float: right;
+           margin: 0 0 2em 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_north_center { width: 100% !important;
+           float: right;
+           margin: 0 0 2em 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_north_right { width: 50% !important;
+           float: right;
+           margin: 0 0 2em 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_south_left { width: 50% !important;
+           float: right;
+           margin: 2em 0 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_south_center { width: 100% !important;
+           float: right;
+           margin: 2em 0 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_south_right { width: 50% !important;
+           float: right;
+           margin: 2em 0 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_west_left { width: 50% !important;
+           float: left;
+           margin: .2em 1em 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_west_center { width: 50% !important;
+           float: left;
+           margin: .2em 1em 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_west_right { width: 50% !important;
+           float: left;
+           margin: .2em 1em 0 0 !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_east_left { width: 50% !important;
+           float: right;
+           margin: .2em 0 0 1em !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_east_center { width: 50% !important;
+           float: right;
+           margin: .2em 0 0 1em !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+div.w_east_right { width: 50% !important;
+           float: right;
+           margin: .2em 0 0 1em !important;
+           line-height: 1.20em !important;
+           display: inline-block;
+}
+
+/* DISPLAY NONE__________*/
+
+div.tag54, div.tag67 {
+	display: none
+}
+ 
+
+/*IMAGES_____________________________________________________________________*/
+
+img { 		width: 100% !important;
+      		vertical-align: text-top;
+				display: inline-block;
+				/*Shadow*/  
+   			-moz-box-shadow:inset 0 0 5px #000;  	/* browser ereaders - chrome */
+   			-webkit-box-shadow:inset 0 0 5px #000;  /*apple */
+   			box-shadow:inset 0 0 5px #000;  		/*other */
+}
+
+	
+
+/*CAPTION__________________________________*/
+p.w_caption {
+	font: 0.75em/1.2em Arial;
+	-webkit-font-smoothing: subpixel-antialiased;
+	margin: 0.20em 0em 0.80em 0em;
+
+}
+
+
+/*LINK ELEMENTS________________________________________________________________________*/
+
+	/*apple: ibooks, ipad, iphone*/
+a:link    {	-webkit-text-fill-color: #3fa2bf;
+			-webkit-tap-highlight-color: silver;} 
+a:visited { -webkit-text-fill-color: gray;text-decoration: none;
+			-webkit-tap-highlight-color: silver;}
+a:hover   {-webkit-text-fill-color: blue;text-decoration: none;
+			-webkit-tap-highlight-color: silver;} 
+a:active  { -webkit-text-fill-color: maroon;
+			-webkit-tap-highlight-color: silver;} 
+
+	/*web browsers + other */
+
+	a:link    {color:#3fa2bf;}  
+	a:visited {color:#c9c9c9; text-decoration: none;}
+	a:hover   {color:#0000FF;text-decoration: none;} 
+	a:active  {color:#800000;} 
+/*___________________________________________________________________*/	 
+
+
+
+

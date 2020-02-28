@@ -1,0 +1,289 @@
+
+/* CSS Document */
+/* 		bi12_19.CSS  */
+/* 		contents, tables */
+
+@page 	{    
+		border: .5ex; 
+}
+		
+
+body 		{	
+	margin: 5%; 
+	text-align: left;
+	-webkit-font-smoothing: subpixel-antialiased;}
+
+
+/* HEADERS __________________________________________________________*/
+
+strong {
+	font-weight:200;}
+
+
+h1
+{
+	font-weight:inherit;
+	color:#75000b;
+	font-size: 1.5em;
+	font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	text-align:left;
+	-webkit-font-smoothing: subpixel-antialiased;}
+
+
+h2{
+	font-size:1.2em;
+	line-height:1.25em;
+	font-family:'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	text-indent: 0.1em;
+	text-align:left;
+	margin-top: 28px;
+	margin-bottom:-16px;
+	font-weight:200;
+	-webkit-font-smoothing: subpixel-antialiased;
+	color:#75000b;}
+
+
+div.GroupTOC p {
+	font-size:0.95em;
+	line-height:1.2em;
+	font-family:'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	text-indent: 0em; /* revised 4-16*/
+	margin-top: 0em;
+	margin-right: 0;
+	margin-bottom: .5em;
+	margin-left: 0;
+	-webkit-font-smoothing: subpixel-antialiased;
+    orphans: 2;
+	widows: 2;
+}
+
+
+div.bodyTxt p{
+			-webkit-font-smoothing: subpixel-antialiased;
+			text-indent: 0em;
+			margin-top: 0.5em;
+			margin-left:0em;
+			padding-left: 0em;	
+}
+
+
+
+
+/*tables: Names and Order of the Books*/
+
+h2 + div.tableDiv {padding-top:-1em;}
+
+div.table {
+	display:table;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom:0px ;
+	padding-left: 0px;
+	border:1px solid #e5e5e5;
+	border-collapse: separate;
+}
+
+thead .tr, thead tr{
+	border-width:1px 2px 0px 2px;
+	border-color:#e5e5e5;
+	vertical-align:bottom;
+	background-color:#e5e5e5;
+	text-align:left;
+	font-size:100%;
+	font-family:"Helvetica Neue", "HelveticaNeue", Helvetica, Arial;
+	margin-top: 0.2em;
+	margin-right: 0.25em;
+	margin-bottom: 0em;
+	margin-left: 0.5em;
+	font-weight:700;}
+
+tr th p.se:first-child {
+	font-weight:700; 
+	font-family:"Helvetica Neue", "HelveticaNeue", Helvetica, Arial;}
+ 
+
+thead .tr, thead tr{
+	border-width:1px 2px 0px 2px;
+	border-color:#e5e5e5;
+	vertical-align:bottom;
+	background-color:#e5e5e5;
+	text-align:left;
+	font-size:100%;
+	font-family:"Helvetica Neue", "HelveticaNeue", Helvetica, Arial;
+	margin-top: 0.2em;
+	margin-right: 0.25em;
+	margin-bottom: 0em;
+	margin-left: 0.5em;
+	font-weight:700;}
+
+thead, div.table .thead {
+	border:1px solid #fff;
+	vertical-align:bottom;
+	font: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color:#e5e5e5;}
+
+
+tr:nth-child(even)    { 
+	background-color:#f9f8f4; }
+
+.se:first-child, .sm:first-child{
+	font-size: 95%;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+}
+
+.se, .sm{
+	font-size: 95%;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	margin-top:.5em;
+	margin-bottom:0.2em;}
+
+.s5:first-child{
+	font-size: 95%;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+}
+
+.s5{
+	font-size: 95%;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-top:.5em;
+	margin-bottom:0em;}
+
+td{
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	text-align:left;
+	font-size:95%;
+}
+
+
+
+/*______________________________________________________2-9-13_______*/	 
+
+div.tableDiv {
+	margin-top:2em;}
+
+
+div.table {
+	display:table;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-collapse: collapse; 
+	border-spacing:0px;
+	border:2px solid silver; }
+	
+div.table + div.table, .table + .table {
+padding-top: 1em;
+padding-right: 0em;
+padding-bottom: 1em;
+padding-left: 0em;
+}
+
+/* table elements*/
+
+tr th, tr th p.sw, tr th p.sn, thead p.sn, thead p.s5 { 
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	font-weight:700; 
+	vertical-align:bottom;}
+
+
+td, .td{
+	border-spacing:0px; 
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 3px;/*extra spacing inside cell for text*/
+	text-indent:0em;
+	text-align:left;
+}
+
+/*LINK ELEMENTS*/
+
+	/*apple: ibooks, ipad, iphone*/
+a:link    {	
+	-webkit-text-fill-color: #800000;
+	color:#800000;
+			} 
+a:visited { 
+	-webkit-text-fill-color: gray;
+	color:gray; 
+			}
+a:hover   {
+	-webkit-text-fill-color: blue;
+	text-decoration: none;
+	color:#0000FF;
+			} 
+a:active  { 
+	-webkit-text-fill-color: maroon;
+	color:#800000;
+			} 
+			
+
+
+
+/* MOBI */
+
+e:link {
+	color: #6195c7;
+}
+ 
+e:visited {
+	color: #6195c7; 
+	text-decoration: none;
+}
+
+e:active {
+	color: #6195c7;
+} 
+
+e:hover {
+	color: #666; 
+	text-decoration: none;
+} 
+
+e:focus {
+	color: #3fa2bf; 
+	background-color: #c5b587;
+}

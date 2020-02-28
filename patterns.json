@@ -1,0 +1,17 @@
+{
+    "languages": ["Kirundi(Kdi)", "English(en)"
+    ],
+    "en": {
+        "files": "^\\d*_BI12_.\\w+-*(split)*\\d*.xhtml",
+        "home": "en/OEBPS/",
+        "titleStart": "^(<title>)",
+        "titleEnd": "(</title>)$",
+        "verseStart": "(<b><sup>[0-9]+ </sup></b>)|(<span class=\"w_ch\"><b>[0-9]+ </b></span>)",
+        "verseEnd": "(<a id=\"chapter[0-9]+_verse[0-9]+\")|(</p>$)"
+    },
+    "kdi": {
+        "File": "\\d+-*[split\\d]*.xhtml",
+        "home": "kdi/OEBPS/"
+    }
+    
+}

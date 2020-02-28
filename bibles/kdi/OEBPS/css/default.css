@@ -1,0 +1,304 @@
+/* DEFAULT.CSS nwt_e */ /* 9-16, 9-28, 10-5, 10-9*/
+@page {
+border: .5ex; }
+
+body {
+font-family: 'Helvetica Neue', 'HelveticaNeue', Arial, Helvetica, sans-serif;
+margin: 5%;
+text-align: left; }
+
+p.w_pagenavnum {
+font-size: large; }
+
+/*IMAGES_____________________________________________________________________*/
+img, figure {
+width: 100% !important;
+vertical-align: text-top;
+display: inline-block; }
+
+table {
+font-family: 'Helvetica Neue', 'HelveticaNeue', Arial, Helvetica, sans-serif;
+display: table;
+line-height: 1.7em;
+border: 0px solid #eee; }
+
+/*text labels on table
+/* --------------------------------- custom bible navigation --------------------------------- */ 
+
+table.w_navigation strong {
+font-weight: 300; } 
+
+/* Bible nav table text labels */
+strong{font-weight:inherit;}
+
+
+table.w_navigation.w_bibleBook tr:first-child, table.w_navigation.w_bibleBook tr:nth-of-type(11)
+  { 
+		font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+		text-align:left;
+		font-weight:200;
+		letter-spacing:1.1px;
+		-webkit-font-smoothing: subpixel-antialiased;
+		margin-top: 1.5em;
+		text-transform:uppercase;
+    	font-size: 1.1em;
+		line-height: 1.1em;
+		color:#77726F;}  /*text labels on table*/
+
+
+table.w_navigation.w_bibleBook, table.w_navigation.w_bibleChapter, table.w_navigation.w_bibleVerse {
+border-spacing: 2px;
+border-collapse: separate;
+font-weight: 300;
+width: 100%;
+}
+
+
+/* bible book navigation */ 
+
+td.w_navigation.w_bibleBook {
+border: 1px solid #817792;
+text-align: left;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #58505E;
+padding: .25em 0;
+color: #ffffff;
+font: bold .9em 'Helvetica Neue', 'HelveticaNeue', Helvetica, 'Arial', Sans-Serif !important;
+text-decoration: none;
+width: 19%; }
+
+/* Bible books */
+td.w_navigation.w_bibleBook:hover {
+border: 1px solid #817792;
+padding: 2px 0;
+text-align: left;
+background: #817792;
+}
+
+td.w_navigation.w_bibleBook:active {
+border-top-color: #1a1a1a;
+background: #999; }
+
+td.w_navigation.w_bibleBook a {
+text-decoration: none;
+padding: 0.5em;
+display: inline-block; }
+
+/*nav table */ td.w_navigation.w_bibleBook > a:active, 
+td.w_navigation.w_bibleBook > a:link, 
+td.w_navigation.w_bibleBook > a:hover, 
+td.w_navigation.w_bibleBook > a:visited {
+font-family: 'Helvetica Neue', 'HelveticaNeue', Arial, sans-serif;
+display: block;
+font-weight: 300;
+color: #ffffff;
+-webkit-text-fill-color: #ffffff;
+text-decoration: none; }
+
+
+/*Bible Book Chapter key*/
+
+tr:nth-of-type(2) td.w_navigation.w_bibleBook:nth-of-type(n+1),  /*pentateuch*/
+tr:nth-of-type(6) td.w_navigation.w_bibleBook:nth-of-type(n+3),
+tr:nth-of-type(7) td.w_navigation.w_bibleBook:nth-of-type(n+1), 
+tr:nth-of-type(8) td.w_navigation.w_bibleBook:nth-of-type(n+1),
+tr:nth-of-type(9) td.w_navigation.w_bibleBook:nth-of-type(n+1),
+tr:nth-of-type(10) td.w_navigation.w_bibleBook:nth-of-type(n-5),
+tr:nth-of-type(12) td.w_navigation.w_bibleBook:nth-of-type(n-5),
+tr:nth-of-type(17) td.w_navigation.w_bibleBook:nth-of-type(n+1) /*Revelation*/
+{
+background: #3B3547;
+  } 
+
+tr:nth-of-type(5) td.w_navigation.w_bibleBook:nth-of-type(n+3),
+tr:nth-of-type(6) td.w_navigation.w_bibleBook:nth-of-type(-n+2),
+tr:nth-of-type(13) td.w_navigation.w_bibleBook:nth-of-type(n+1),
+tr:nth-of-type(14) td.w_navigation.w_bibleBook:nth-of-type(n+1),
+tr:nth-of-type(15) td.w_navigation.w_bibleBook:nth-of-type(n+1),
+tr:nth-of-type(16) td.w_navigation.w_bibleBook:nth-of-type(n+1),
+tr:nth-of-type(17) td.w_navigation.w_bibleBook:nth-of-type(1) /*Jude*/
+{
+margin: 1em;
+border: 1px solid silver;
+text-align: left; 
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+color: #cfcfcf;
+background: #544C63;
+   text-decoration: none;
+  } 
+
+tr:nth-of-type(3) td.w_navigation.w_bibleBook:nth-of-type(n+1),  /*Joshua-Samuel*/
+tr:nth-of-type(4) td.w_navigation.w_bibleBook:nth-of-type(n+1),  /*1 Kings - Ezra */
+tr:nth-of-type(5) td.w_navigation.w_bibleBook:nth-of-type(-n+2), /*Nehemiah, Esther*/
+tr:nth-of-type(12) td.w_navigation.w_bibleBook:nth-of-type(n+5)  /*Acts*/
+ {
+margin: 1em;
+border: 1px solid silver;
+text-align: left; 
+color: #cfcfcf;
+font: .9em 'Arial', Helvetica, Sans-Serif;
+font-weight: 500;
+ -webkit-text-fill-color: #cfcfcf;
+ background: #746B84;
+   text-decoration: none;
+  } 
+
+
+
+
+h2.w_navigation.w_bibleVerse, h2.w_navigation.w_bibleChapter {
+margin: 0 0 0.5em 0;
+font-size: 1.2em;
+font-family: 'Helvetica Neue', 'HelveticaNeue', Arial, sans-serif;
+padding: 0 0.5em;
+border: 1px solid #666666;
+border-radius: 2px;
+background-color: #58505E;
+color: #ffffff; }
+
+
+h2.w_navigation.w_bibleVerse a, h2.w_navigation.w_bibleChapter a {
+font-family: 'Helvetica Neue', 'HelveticaNeue', Arial, sans-serif;
+margin: 0;
+padding: 0.25em 0;
+display: inline-block; }
+
+
+h2.w_navigation.w_bibleChapter a {
+width: 100%; }
+
+
+h2.w_navigation.w_bibleVerse a:active, h2.w_navigation.w_bibleVerse a:link, h2.w_navigation.w_bibleVerse a:hover, h2.w_navigation.w_bibleVerse a:visited, h2.w_navigation.w_bibleChapter a:active, h2.w_navigation.w_bibleChapter a:link, h2.w_navigation.w_bibleChapter a:hover, h2.w_navigation.w_bibleChapter a:visited {
+font-weight: 300;
+/*color: #6195c7;*/
+color:#ffffff;
+-webkit-text-fill-color: #ffffff;
+-webkit-tap-highlight-color: silver;
+text-decoration: none;
+padding: 0.5em; }
+
+
+h2.w_navigation.w_bibleVerse:hover, h2.w_navigation.w_bibleChapter:hover {
+background-color: #817792; }
+/* bible chapter navigation */ 
+
+td.w_navigation.w_bibleVerse, td.w_navigation.w_bibleChapter {
+border-radius: 2px;
+padding: 2px;
+text-align: center;
+width: 2px;
+background: #817792;
+color: white;
+font-size: 14px;
+text-decoration: none;
+}
+
+tr:nth-of-type(2) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,  /*pentateuch*/
+tr:nth-of-type(6) td.w_navigation.w_bibleBook:nth-of-type(n+3):hover,
+tr:nth-of-type(7) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover, 
+tr:nth-of-type(8) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,
+tr:nth-of-type(9) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,
+tr:nth-of-type(10) td.w_navigation.w_bibleBook:nth-of-type(n-5):hover,
+tr:nth-of-type(12) td.w_navigation.w_bibleBook:nth-of-type(n-5):hover,
+tr:nth-of-type(17) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,
+tr:nth-of-type(5) td.w_navigation.w_bibleBook:nth-of-type(n+3):hover,
+tr:nth-of-type(6) td.w_navigation.w_bibleBook:nth-of-type(-n+2):hover,
+tr:nth-of-type(13) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,
+tr:nth-of-type(14) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,
+tr:nth-of-type(15) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,
+tr:nth-of-type(16) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,
+tr:nth-of-type(17) td.w_navigation.w_bibleBook:nth-of-type(1):hover,
+tr:nth-of-type(3) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,  /*Joshua-Samuel*/
+tr:nth-of-type(4) td.w_navigation.w_bibleBook:nth-of-type(n+1):hover,  /*1 Kings - Ezra */
+tr:nth-of-type(5) td.w_navigation.w_bibleBook:nth-of-type(-n+2):hover, /*Nehemiah, Esther*/
+tr:nth-of-type(12) td.w_navigation.w_bibleBook:nth-of-type(n+5):hover,  /*Acts*/
+td.w_navigation.w_bibleVerse:hover, td.w_navigation.w_bibleChapter:hover 
+{
+color: white;
+-webkit-text-fill-color: #ffffff;
+background: #656769;
+color: #ccc; }
+
+
+
+
+/* verse hover state */ 
+
+tr:nth-of-type(2) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,  /*pentateuch*/
+tr:nth-of-type(6) td.w_navigation.w_bibleBook:nth-of-type(n+3):active,
+tr:nth-of-type(7) td.w_navigation.w_bibleBook:nth-of-type(n+1):active, 
+tr:nth-of-type(8) td.w_navigation.w_bibleBook:nth-of-type(n+10):active,
+tr:nth-of-type(9) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,
+tr:nth-of-type(10) td.w_navigation.w_bibleBook:nth-of-type(n-5):active,
+tr:nth-of-type(12) td.w_navigation.w_bibleBook:nth-of-type(n-5):active,
+tr:nth-of-type(17) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,
+tr:nth-of-type(5) td.w_navigation.w_bibleBook:nth-of-type(n+3):active,
+tr:nth-of-type(6) td.w_navigation.w_bibleBook:nth-of-type(-n+2):active,
+tr:nth-of-type(13) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,
+tr:nth-of-type(14) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,
+tr:nth-of-type(15) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,
+tr:nth-of-type(16) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,
+tr:nth-of-type(17) td.w_navigation.w_bibleBook:nth-of-type(1):active,
+tr:nth-of-type(3) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,  /*Joshua-Samuel*/
+tr:nth-of-type(4) td.w_navigation.w_bibleBook:nth-of-type(n+1):active,  /*1 Kings - Ezra */
+tr:nth-of-type(5) td.w_navigation.w_bibleBook:nth-of-type(-n+2):active, /*Nehemiah, Esther*/
+tr:nth-of-type(12) td.w_navigation.w_bibleBook:nth-of-type(n+5):active,  /*Acts*/
+td.w_navigation.w_bibleVerse:active, td.w_navigation.w_bibleChapter:active {
+/* verse hover state */
+background: #c3c3c3;
+color: white;
+-webkit-text-fill-color: #ffffff;
+text-decoration: none; }
+
+
+td.w_navigation.w_bibleVerse a, td.w_navigation.w_bibleChapter a {
+text-decoration: none;
+padding: 0.5em;
+display: inline-block;
+color: white;
+-webkit-tap-highlight-color: silver; }
+
+
+td.w_navigation.w_bibleVerse > a:active, td.w_navigation.w_bibleVerse > a:link, td.w_navigation.w_bibleVerse > a:visited, td.w_navigation.w_bibleChapter > a:active, td.w_navigation.w_bibleChapter > a:link, td.w_navigation.w_bibleChapter > a:visited {
+font-weight: 300;
+color: white;
+-webkit-text-fill-color: white;
+-webkit-tap-highlight-color: silver;
+text-decoration: none;
+display: block; }
+
+td.w_navigation.w_bibleVerse > a:hover, td.w_navigation.w_bibleChapter > a:hover {
+color: #3d3d3d;
+-webkit-tap-highlight-color: silver; }
+
+
+
+/* MOBI */
+
+e:link {
+	color: #6195c7;
+	text-decoration: none;
+}
+ 
+e:visited {
+	color: #6195c7; 
+	text-decoration: none;
+}
+
+e:active {
+	color: #6195c7;
+} 
+
+e:hover {
+	color: #666; 
+	text-decoration: none;
+} 
+
+e:focus {
+	color: #3fa2bf; 
+	background-color: #c5b587;
+}
