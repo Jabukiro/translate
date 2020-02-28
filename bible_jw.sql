@@ -11,6 +11,7 @@ CREATE TABLE book(
 	name_kdi 	CHAR	NOT NULL,
 	short_en	CHAR,
 	short_kdi 	CHAR,
+	chapters_num	INTEGER,
 	test_id INTEGER references testament(ID)
 );
 CREATE TABLE chapter(
