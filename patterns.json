@@ -6,8 +6,7 @@
         "home": "en/OEBPS/",
         "titleStart": "^(<title>)",
         "titleEnd": "(</title>)$",
-        "verseStart": "(<b><sup>[0-9]+ </sup></b>)|(<span class=\"w_ch\"><b>[0-9]+ </b></span>)",
-        "verseEnd": "(<a id=\"chapter[0-9]+_verse[0-9]+\")|(</p>$)"
+        "verseNumber": "(<b><sup>[0-9]+ </sup></b>)|(<span class=\"w_ch\"><b>[0-9]+ </b></span>)"
     },
     "kdi": {
         "File": "\\d+-*[split\\d]*.xhtml",
