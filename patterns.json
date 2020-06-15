@@ -3,14 +3,14 @@
     ],
     "en": {
         "files": "^\\d*_BI12_.\\w+-*(split)*\\d*.xhtml",
-        "home": "en/OEBPS/",
+        "home": "bible/en/OEBPS/",
         "titleStart": "^(<title>)",
         "titleEnd": "(</title>)$",
         "verseNumber": "(<b><sup>[0-9]+ </sup></b>)|(<span class=\"w_ch\"><b>[0-9]+ </b></span>)"
     },
     "kdi": {
         "File": "\\d+-*[split\\d]*.xhtml",
-        "home": "kdi/OEBPS/"
+        "home": "bible/kdi/OEBPS/"
     }
     
 }

@@ -1,3 +1,6 @@
+########
+#Author: Jabukiro
+########
 #----- File used to parse the epub files and save the bible
 
 #Only 11510 verses are separated(out of 30000-ish)
@@ -32,11 +35,18 @@ def insertAll(values, table, cursor):
     if (table == 'verses'):
         cursor.executemany('INSERT INTO verse VALUES(Null,?,?,?,?)', values)
         print("Verses succesfully inserted")
+def getVerseCount(bookId, cursor):
+    result = cursor.execute("SELECT COUNT(*) FROM verse WHERE bookId=?", bookId)
+    return result.fetchone()
+def getAllPerTable(table, cursor):
+    result = cursor.execute("SELECT COUNT(*) FROM verse WHERE bookId=?", bookId)
+    return result.fetchone()
+
 
 def main():
     books = []
     verses = {}
-    conn = db.connect('bible_jw.db')
+    conn = db.connect('db/bible_jw.db')
     patFile = open('patterns.json', 'r')
     patterns = json.load(patFile)
     cur = conn.cursor()
@@ -53,15 +63,16 @@ def main():
     enCorrList = [f for f in enFileList if (enFilePat.match(f) != None and int(f[:2])<71)]
 
     for f in enCorrList:
+        print("reading file")
         epubFile = open(patterns['en']['home']+f)
-        obj = Parser(epubFile)
+        parser = Parser(epubFile)
 
         #change to patterns[language]
-        obj.setPatterns(patterns['en'])
-        obj.start()
-        chapter = obj.getBook()
+        parser.setPatterns(patterns['en'])
+        parser.start()
+        chapter = parser.getBook()
         books.append(chapter)
-        verses[chapter['name']] = obj.getVerses()
+        verses[chapter['name']] = parser.getVerses()
         epubFile.close()
     print('All done')
 main()
