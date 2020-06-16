@@ -2,14 +2,17 @@
     "languages": ["Kirundi(Kdi)", "English(en)"
     ],
     "en": {
-        "files": "^\\d*_BI12_.\\w+-*(split)*\\d*.xhtml",
+        "files": "^\\d+(-split\\d+)?.xhtml$",
         "home": "bible/en/OEBPS/",
-        "titleStart": "^(<title>)",
-        "titleEnd": "(</title>)$",
-        "verseNumber": "(<b><sup>[0-9]+ </sup></b>)|(<span class=\"w_ch\"><b>[0-9]+ </b></span>)"
+        "titleStart": "<title>",
+        "titleEnd": "</title>",
+        "verseNumber": "chapter[0-9]+_verse[0-9]+",
+        "verseStart": "<strong>(<sup>)?[0-9]+ (</sup>)?</strong>(</span>)?",
+        "verseEnd": "(<strong>(<sup>)?[0-9]+ (</sup>)?</strong>)|(</p>)"
+    
     },
     "kdi": {
-        "File": "\\d+-*[split\\d]*.xhtml",
+        "files": "\\d+-*[split\\d]*.xhtml",
         "home": "bible/kdi/OEBPS/"
     }
     
