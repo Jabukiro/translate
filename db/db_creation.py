@@ -17,6 +17,5 @@ def create_connection(db_file, script):
         if conn:
             conn.close()
 
-
 if __name__ == '__main__':
     create_connection(r"bible_jw.db", r"bible_jw.sql")

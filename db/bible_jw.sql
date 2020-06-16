@@ -6,11 +6,9 @@ CREATE TABLE testament(
 );
 CREATE TABLE book(
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
-	bible_id, 	INTEGER NOT NULL,
-	name_en		CHAR	NOT NULL,
-	name_kdi 	CHAR	NOT NULL,
-	short_en	CHAR,
-	short_kdi 	CHAR,
+	bible_id 	INTEGER NOT NULL,
+	name		CHAR	NOT NULL,
+	short	CHAR,
 	chapters_num	INTEGER,
 	test_id INTEGER references testament(ID)
 );
@@ -25,8 +23,7 @@ CREATE TABLE verses(
 	chap_id INTEGER REFERENCES chapter(id),
 	book_id INTEGER REFERENCES book(id),
 	verseNum 	CHAR 	NOT NULL,
-	verse_en	TEXT 	NOT NULL,
-	verse_kdi	TEXT	NOT NULL
+	verse	TEXT 	NOT NULL
 );
 
 INSERT INTO testament VALUES(NULL, 'old');
