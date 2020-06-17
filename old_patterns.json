@@ -11,9 +11,14 @@
         "verseEnd": "(<strong>(<sup>)?[0-9]+ (</sup>)?</strong>)|(</p>)"
     
     },
-    "kdi": {
-        "files": "\\d+-*[split\\d]*.xhtml",
-        "home": "bible/kdi/OEBPS/"
+    "ru": {
+        "files": "^\\d+(-split\\d+)?.xhtml$",
+        "home": "bible/ru/OEBPS/",
+        "titleStart": "<title>",
+        "titleEnd": "</title>",
+        "verseNumber": "chapter[0-9]+_verse[0-9]+",
+        "verseStart": "<strong>(<sup>)?[0-9]+ (</sup>)?</strong>(</span>)?",
+        "verseEnd": "(<strong>(<sup>)?[0-9]+ (</sup>)?</strong>)|(</p>)"
     }
     
 }
