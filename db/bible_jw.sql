@@ -1,5 +1,5 @@
 --Updated. Delete existing and re-create
-ATTACH DATABASE 'bible_jw.db' AS 'bible'; 
+ATTACH DATABASE 'ru_bible_jw.db' AS 'bible'; 
 CREATE TABLE testament(
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	name	CHAR(3)

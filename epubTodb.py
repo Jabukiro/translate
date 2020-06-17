@@ -64,25 +64,25 @@ def main():
     books = []
     verses = {}
     filesParsed=0
-    conn = db.connect('db/bible_jw.db')
+    conn = db.connect('db/ru_bible_jw.db')
     patFile = open('patterns.json', 'r', encoding='utf8')
     patterns = json.load(patFile)
     cur = conn.cursor()
     print("Currently Supported Languages:\n    ", patterns['languages'])
-    #language = input("Which language would you like?\n>    ")
+    language = input("Which language would you like?\n>    ")
     #path = input("Home directory of decompressed epub files:\n>    ")
 
     #Loading list of files
-    enFileList = os.listdir(patterns['en']['home'])
+    enFileList = os.listdir(patterns[language]['home'])
 
     #Regex patterns for matching files containing verses
     #Significantly reduces files needed to be opened
-    enFilePat = re.compile(patterns['en']['files'])
+    enFilePat = re.compile(patterns[language]['files'])
     enCorrList = [f for f in enFileList if (enFilePat.match(f) != None and int(f[:2])<71)]
     for f in enCorrList:
         filesParsed+=1
-        print("reading file >", patterns['en']['home']+f)
-        epubFile = open(patterns['en']['home']+f, 'r', encoding='utf8')
+        print("reading file >", patterns[language]['home']+f)
+        epubFile = open(patterns[language]['home']+f, 'r', encoding='utf8')
         parser = Parser()
 
         #Start parsing the file

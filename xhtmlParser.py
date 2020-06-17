@@ -20,13 +20,14 @@ class Parser(HTMLParser):
         #Reads in various patterns that are likely to change per language version.
         with open(self.patFileRef, 'r', encoding='utf8') as file:
            patterns=json.load(file)
+           patterns=patterns["en"]
 
-        self.titleTag = patterns["en"]["titleTag"]
-        self.bookName = re.compile(patterns["en"]["bookName"])
-        self.bookChap = re.compile(patterns["en"]["bookChap"])
-        self.verseTag = patterns["en"]["verseTag"]
-        self.verseID = patterns["en"]["verseAttrs"][0]
-        self.verseAttrsVal = re.compile(patterns["en"]["verseAttrs"][1])
+        self.titleTag = patterns["titleTag"]
+        self.bookName = re.compile(patterns["bookName"])
+        self.bookChap = re.compile(patterns["bookChap"])
+        self.verseTag = patterns["verseTag"]
+        self.verseID = patterns["verseAttrs"][0]
+        self.verseAttrsVal = re.compile(patterns["verseAttrs"][1])
 
     def getBook(self):
         if "name" in self.book.keys():

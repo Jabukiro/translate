@@ -45,6 +45,6 @@ def getConnection(db_file):
     except Error as e:
         print(e)
 if __name__ == '__main__':
-    create_connection(r"bible_jw.db", r"bible_jw.sql")
-    runscript(r"bible_jw.db", r"en_bible_data.sql")
+    create_connection(r"ru_bible_jw.db", r"bible_jw.sql")
+    runscript(r"ru_bible_jw.db", r"en_bible_data.sql")
     #getConnection(r"bible_jw.db")
