@@ -64,15 +64,15 @@ def main():
     books = []
     verses = {}
     filesParsed=0
-    conn = db.connect('db/ru_bible_jw.db')
     patFile = open('patterns.json', 'r', encoding='utf8')
     patterns = json.load(patFile)
-    cur = conn.cursor()
     print("Currently Supported Languages:\n    ", patterns['languages'])
     language = input("Which language would you like?\n>    ")
     #path = input("Home directory of decompressed epub files:\n>    ")
 
-    #Loading list of files
+    #Loading list of files and DB
+    conn = db.connect('db/ru_bible_jw.db')
+    cur = conn.cursor()
     enFileList = os.listdir(patterns[language]['home'])
 
     #Regex patterns for matching files containing verses
