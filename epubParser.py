@@ -1,6 +1,6 @@
 #Epub file parser
-
 import re
+import json
 class Parser:
     def __init__(self, fileref):
         self.file = fileref
@@ -8,6 +8,7 @@ class Parser:
         self.verses = {}
         self.chap = False
         self.__errorFile="logs/errorLog"
+        self.patFile = "patterns.json"
     def getBook(self):
         if "name" in self.book.keys():
             return self.book
@@ -93,7 +94,7 @@ class Parser:
         #try:
         Lines=self.file.readlines()
         for line in Lines:
-            #print("Parsing line >", line)
+            print("Parsing line >", line)
             if len(self.book)==0:
                 self.__bookMatch(line)
             else:
@@ -104,3 +105,11 @@ class Parser:
         #    self.log("error", logMsg)
         print('Parsing of file >'+self.file.name)
         print('\tNumber of verses found >'+str(len(self.verses)))
+
+if __name__ == '__main__':
+    filename = "bible/en/OEBPS/1001061125-split3.xhtml"#input("File name to parse >")
+    f=open(filename, 'r', encoding='utf8')
+    parser = Parser(f)
+    with open(parser.patFile, 'r') as file:
+        parser.setPatterns(json.load(file)['en'])
+    print("Breakpoint set. Debug away!")
